@@ -11,7 +11,7 @@
     <div class="container">
         <h2>Cadastro</h2>
         <!--Cria um formulário com o método post, com a ação do controller/pessoaController.php-->
-        <form method="POST", action="controller/pessoaController.php">
+        <form method="POST", action="controller/pessoaController.php?acao=inserir">
 
             <!--Define a classe(para o estilo), placeholder e respectiva identificação de cada campo para a correta conexão com o banco-->
             <div class="form-group">

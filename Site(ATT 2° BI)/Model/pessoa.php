@@ -1,7 +1,7 @@
 <?php
 
 //Importa o arquivo conexão.php
-require_once '../controller/conexao.php'; 
+require_once $_SERVER['DOCUMENT_ROOT'] .'/controller/conexao.php'; 
 
 class Pessoa{
     //Cria atributos da classe pessoa
